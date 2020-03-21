@@ -1,6 +1,8 @@
 # Applying-Grad_CAM-
 In this repository I have applied Grad Cam Algorithm for visualizing the activation maps on CIFAR-10 dataset using Resnet18 Architecture
 
+Observation was that the model oscillated less when SGD was used as compared to RMS_PROP and also there was still  overfiitng in our model as we can see the training accuracy touching 96% while test accuracy has not crossed 89% also.
+
 # Achieved accuracy of 88.77% in 16th epoch when optimizer used was SGD(Stochastic Gradient Descent)
 
 # Achieved accuracy of 85.44% in 40th epoch when optimizer used was RMS_PROP
